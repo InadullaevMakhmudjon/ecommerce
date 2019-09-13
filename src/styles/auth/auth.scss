@@ -1,0 +1,29 @@
+.auth {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .sign-in {
+        width: 25vw;
+
+        .customButtons {
+            width: 25vw;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .signInWithGoogle {
+                background-color: #71cbff;
+            }
+
+            .signInWithGoogle:hover {
+                background-color: #71a3ff;
+            }
+        }
+    }
+
+    .sign-up {
+        width: 25vw;
+    }
+}

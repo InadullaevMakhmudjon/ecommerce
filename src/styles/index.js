@@ -1,0 +1,12 @@
+import './index.scss';
+import './auth/auth.scss';
+import './home/Home.scss';
+import './home/Item.scss';
+import './header/header.scss';
+import './home/ItemList.scss';
+import './shop/collection.scss';
+import './forms/form-input.scss';
+import './forms/custom-button.scss';
+import './card-icon/card-icon.scss';
+import './card-item/card-item.scss';
+import './card-dropdown/card-dropdown.scss';
