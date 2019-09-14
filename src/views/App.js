@@ -5,6 +5,7 @@ import Home from './home/Home';
 import Shoppage from './shop/ShopPage';
 import Header from '../components/header/header';
 import Auth from './auth/auth';
+import Checkout from './checkout/checkout.js';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { setUser } from '../redux/user/user.action';
@@ -41,6 +42,7 @@ class App extends Component {
                 <Switch>
                     <Route exact path='/' component={Home}/>
                     <Route path='/shop' component={Shoppage}/>
+                    <Route path="/checkout" component={Checkout}/>
                     <Route path="/auth" render={() => this.props.currentUser ? <Redirect to='/'/> : <Auth/> }/>
                 </Switch>
             </div>
