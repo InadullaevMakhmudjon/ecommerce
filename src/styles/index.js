@@ -10,3 +10,5 @@ import './forms/custom-button.scss';
 import './card-icon/card-icon.scss';
 import './card-item/card-item.scss';
 import './card-dropdown/card-dropdown.scss';
+import './checkout/checkout.scss';
+import './checkout/checkout-item.scss';
