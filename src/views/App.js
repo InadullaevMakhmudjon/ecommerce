@@ -24,7 +24,6 @@ class App extends Component {
                             id: snapshot.id,
                             ...snapshot.data(),
                     });
-                    this.props.history.push('/');
                 });
             }
             setCurrentUser(user);
